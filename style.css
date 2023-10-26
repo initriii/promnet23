@@ -1,0 +1,82 @@
+/* CSS */
+.header-title {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the home section */
+.home-section {
+    position: relative;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/020/389/525/original/hand-drawing-cartoon-girl-cute-girl-drawing-for-profile-picture-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 1349px;
+    height: 617px;
+}
+
+.home-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 250px;
+    text-align: center;
+}
+/* Tambahkan ke CSS Anda */
+.resume-text {
+    font-size: 18px;
+    margin-top: 10px;
+}
+/* Tambahkan ke CSS Anda */
+.resume-text {
+    font-size: 18px;
+    margin: 10px 0;
+    float: left; 
+}
+
+.resume-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 0; /
+    float: left; /
+    display: inline-block;
+    cursor: pointer;
+}
